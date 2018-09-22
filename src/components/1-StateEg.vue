@@ -17,14 +17,14 @@ export default {
       localCount: 1
     }
   },
-  // 直接通过 this.$store 获取
+  /* 直接通过 this.$store 获取 */
   // computed: {
   //   count() {
   //     return this.$store.state.count;
   //   }
   // },
 
-  // mapState-数组
+  /* mapState-数组 */
   // computed: mapState(['count'])
 
   // mapState-对象
@@ -41,7 +41,7 @@ export default {
   //   // }
   // })
 
-  // mapState-局部状态+全局状态
+  /* mapState-局部状态+全局状态 */
   // computed: {
   //   localComputed() {
   //     return this.localCount + 1;
