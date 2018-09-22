@@ -1,6 +1,6 @@
 <template>
     <div>
-      <h2>State</h2>
+      <h2>state</h2>
       <div>this.$store.state.count = {{this.$store.state.count}}</div>
       <div>localCount = {{localCount}}</div>
       <!-- <div>localComputed = {{localComputed}}</div> -->

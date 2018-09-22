@@ -1,16 +1,19 @@
 <template>
   <div id="app">
-    <state-eg></state-eg>
+    <!-- <state-eg></state-eg> -->
+    <getter-eg></getter-eg>
   </div>
 </template>
 
 <script>
-import StateEg from './components/1-StateEg'
+import StateEgVue from './components/1-StateEg.vue';
+import GetterEgVue from './components/2-GetterEg.vue';
 
 export default {
   name: 'App',
   components: {
-    'state-eg': StateEg
+    'state-eg': StateEgVue,
+    'getter-eg': GetterEgVue,
   }
 }
 </script>
