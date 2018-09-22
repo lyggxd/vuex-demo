@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld/>
+    <state-eg></state-eg>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+import StateEg from './components/1-StateEg'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    'state-eg': StateEg
   }
 }
 </script>
@@ -21,7 +20,6 @@ export default {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
   margin-top: 60px;
 }
