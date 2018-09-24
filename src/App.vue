@@ -3,7 +3,8 @@
     <!-- <state-eg></state-eg> -->
     <!-- <getter-eg></getter-eg> -->
     <!-- <mutation-eg></mutation-eg> -->
-    <action-eg></action-eg>
+    <!-- <action-eg></action-eg> -->
+    <favorite-movie></favorite-movie>
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import StateEgVue from './components/1-StateEg.vue';
 import GetterEgVue from './components/2-GetterEg.vue';
 import MutationEgVue from './components/3-MutationEg.vue';
 import ActionEgVue from './components/4-ActionEg.vue';
+import FavoriteMovieVue from './components/FavoriteMovie.vue';
 
 export default {
   name: 'App',
@@ -19,7 +21,8 @@ export default {
     'state-eg': StateEgVue,
     'getter-eg': GetterEgVue,
     'mutation-eg': MutationEgVue,
-    'action-eg': ActionEgVue
+    'action-eg': ActionEgVue,
+    'favorite-movie': FavoriteMovieVue
   }
 }
 </script>

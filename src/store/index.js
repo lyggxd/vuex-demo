@@ -1,3 +1,4 @@
+import modules from './modules'
 
 export default {
     state: {
@@ -25,9 +26,14 @@ export default {
             setTimeout(() => {
                 ctx.commit('increment', payload)
             }, 1000)
+        },
+        removeMovie({ commit }, { id }) {
+            commit('movies/remove', { id })
+            commit('my/removeFromSeen', { id })
+            // commit('my/removeFromWant', { id })
         }
     },
-    modules: {},
+    modules,
     strict: true,
     plugins: [],
 }
