@@ -17,6 +17,16 @@ export default {
             state.count += payload.amount
         }
     },
+    actions: {
+        increment(ctx, payload) {
+            ctx.commit('increment', payload)
+        },
+        incrementAsync(ctx, payload) {
+            setTimeout(() => {
+                ctx.commit('increment', payload)
+            }, 1000)
+        }
+    },
     modules: {},
     strict: true,
     plugins: [],

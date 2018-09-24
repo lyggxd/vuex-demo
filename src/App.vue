@@ -2,7 +2,8 @@
   <div id="app">
     <!-- <state-eg></state-eg> -->
     <!-- <getter-eg></getter-eg> -->
-    <mutation-eg></mutation-eg>
+    <!-- <mutation-eg></mutation-eg> -->
+    <action-eg></action-eg>
   </div>
 </template>
 
@@ -10,13 +11,15 @@
 import StateEgVue from './components/1-StateEg.vue';
 import GetterEgVue from './components/2-GetterEg.vue';
 import MutationEgVue from './components/3-MutationEg.vue';
+import ActionEgVue from './components/4-ActionEg.vue';
 
 export default {
   name: 'App',
   components: {
     'state-eg': StateEgVue,
     'getter-eg': GetterEgVue,
-    'mutation-eg': MutationEgVue
+    'mutation-eg': MutationEgVue,
+    'action-eg': ActionEgVue
   }
 }
 </script>

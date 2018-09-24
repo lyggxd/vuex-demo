@@ -19,6 +19,7 @@ export default {
         plus(amount) {
             this.$store.commit('increment', { amount })
         }
+        
         // ...mapMutations({
         //     increment: 'increment'
         // }),
